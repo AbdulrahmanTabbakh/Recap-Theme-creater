@@ -1,6 +1,7 @@
 import { initialColors } from "./lib/colors";
 import Color from "./Components/Color/Color";
 import "./App.css";
+import React from "react";
 
 function App() {
   return (
