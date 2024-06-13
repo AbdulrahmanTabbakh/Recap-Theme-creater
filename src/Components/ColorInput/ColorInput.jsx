@@ -1,6 +1,6 @@
 export default function ColorInput({ label, value, onChange }) {
-  const handleChange = (Event) => {
-    onChange(Event.target.value);
+  const handleChange = (event) => {
+    onChange(event.target.value);
   };
 
   return (
