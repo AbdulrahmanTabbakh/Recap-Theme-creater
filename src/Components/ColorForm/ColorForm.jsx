@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { nanoid } from "nanoid";
-import ColorInput from "./ColorInput";
+import ColorInput from "../ColorInput/ColorInput.jsx";
 
 export default function ColorForm({ onAddColor }) {
   const [role, setRole] = useState("Primary");
